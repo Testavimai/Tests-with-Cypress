@@ -7,9 +7,7 @@ describe("Customer login", () => {
    cy.get('#pass').type('doremifasollasido-09', {log:true}).type('{enter}')
    
    // Verify the login
-   cy.get('span.logged-in').contains('saule salna').should('be.visible')
-  
-   cy.window().its('sessionStorage').invoke("getItem", "token")
+   cy.get('span.logged-in').contains('saule salna').should('be.visible')  
   })   
 })   
 
