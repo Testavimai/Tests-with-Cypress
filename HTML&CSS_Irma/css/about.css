@@ -121,7 +121,7 @@ img {
     #section1 .container {
       display: flex;
       gap: 330px;
-      align-items: first baseline baseline;
+      align-items: first baseline;
       position: relative;
     }
 
@@ -309,7 +309,7 @@ h2{
   padding: 10px 10px;
   font-weight: 700;
   border-radius: 50%;
-  border: #b7d1d6, none, 1px;
+  border: #b7d1d6 none 1px;
   transition: background-color 0.3s ease;
     overflow: visible;
   position: absolute;
@@ -675,7 +675,7 @@ h2{
   padding: 10px 20px;
   font-weight: 700;
   border-radius: 25px;
-  border: #b7d1d6, solid, 3px;
+  border: #b7d1d6 solid 3px;
   transition: background-color 0.3s ease;
 }
 
