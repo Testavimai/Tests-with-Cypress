@@ -634,7 +634,7 @@ right: -50px;
   padding: 10px 20px;
   font-weight: 700;
   border-radius: 25px;
-  border: #b7d1d6, solid, 3px;
+  border: #b7d1d6 solid 3px;
   transition: background-color 0.3s ease;
 }
 
